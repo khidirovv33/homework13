@@ -64,7 +64,7 @@ $text-colors: red, blue, green, white;
 
 }
 
-section{
+.container1{
 max-width: 1200px;
 margin: 0 auto;
 border-radius: 50px;
@@ -73,6 +73,7 @@ background-image: url("Image-00.png");
     background-position: center;
     background-repeat: no-repeat;
   }
+  
 
 
 @each $key, $value in $buttons {
@@ -85,7 +86,7 @@ background-image: url("Image-00.png");
     font-size: 20px;
   }
 }
-@for $i from 0 through 100 {
+@for $i from 0 through 200 {
   .w-#{$i} {
     width: #{$i * 10}px;
   }
@@ -227,7 +228,10 @@ background-image: url("Image-00.png");
   }
 }
 .text-primary {
-  color:  #3e7126;
+  color:  #3e7126,#715C3A;
+}
+.text-primary2 {
+  color: #715C3A;
 }
 .max-w-1200 {
   max-width: 1200px;
@@ -235,6 +239,13 @@ background-image: url("Image-00.png");
 .m-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+$colors: red, blue, green, black;
+@each $color in $colors {
+  .myborder-#{$color} {
+    border: 1px solid $color;
+  }
 }
 
 @media (max-width: 500px) {
