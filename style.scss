@@ -31,7 +31,7 @@ $colors: red, blue, green;
     background-color: $color;
   }
 }
-$colors: red, blue, green, white black, grey,orange;
+$colors: red, blue, green, white black, grey,orange lightgrey;
 
 @each $color in $colors {
   .hover-text-#{$color}:hover {
@@ -74,6 +74,15 @@ background-image: url("Image-00.png");
     background-repeat: no-repeat;
   }
   
+  .conter5{
+max-width: 1200px;
+margin: 0 auto;
+border-radius: 50px;
+background-image: url("Map (1).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
 
 @each $key, $value in $buttons {
@@ -228,7 +237,7 @@ background-image: url("Image-00.png");
   }
 }
 .text-primary {
-  color:  #3e7126,#715C3A;
+  color:  #559f33;
 }
 .text-primary2 {
   color: #715C3A;

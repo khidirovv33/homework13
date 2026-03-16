@@ -38,8 +38,8 @@
   color: grey;
 }
 
-.hover-text-orange:hover {
-  color: orange;
+.hover-text-orange lightgrey:hover {
+  color: orange lightgrey;
 }
 
 .text-red {
@@ -99,6 +99,16 @@
   margin: 0 auto;
   border-radius: 50px;
   background-image: url("Image-00.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.conter5 {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-image: url("Map (1).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22712,16 +22722,16 @@
   border-color: grey;
 }
 
-.text-orange {
-  color: orange;
+.text-orange lightgrey {
+  color: orange lightgrey;
 }
 
-.bg-orange {
-  background-color: orange;
+.bg-orange lightgrey {
+  background-color: orange lightgrey;
 }
 
-.border-orange {
-  border-color: orange;
+.border-orange lightgrey {
+  border-color: orange lightgrey;
 }
 
 .font-100 {
@@ -22881,7 +22891,7 @@
 }
 
 .text-primary {
-  color: #3e7126, #715C3A;
+  color: #559f33;
 }
 
 .text-primary2 {
