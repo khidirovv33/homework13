@@ -104,7 +104,7 @@
   background-repeat: no-repeat;
 }
 
-.conter5 {
+.conter05 {
   max-width: 1200px;
   margin: 0 auto;
   border-radius: 50px;
@@ -22790,19 +22790,19 @@
   display: none;
 }
 
-.fixed {
+.posfixed {
   position: fixed;
 }
 
-.relative {
+.posrelative {
   position: relative;
 }
 
-.absolute {
+.posabsolute {
   position: absolute;
 }
 
-.sticky {
+.possticky {
   position: sticky;
 }
 

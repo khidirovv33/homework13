@@ -74,7 +74,7 @@ background-image: url("Image-00.png");
     background-repeat: no-repeat;
   }
   
-  .conter5{
+  .conter05{
 max-width: 1200px;
 margin: 0 auto;
 border-radius: 50px;
@@ -82,6 +82,7 @@ background-image: url("Map (1).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
   }
 
 
@@ -208,7 +209,7 @@ background-image: url("Map (1).png");
   }
 }
 @each $position in $positions {
-  .#{$position} {
+  .pos#{$position} {
     position: $position;
   }
 }
